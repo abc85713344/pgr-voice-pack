@@ -57,20 +57,27 @@ Copy-Item "$src\02-OCR组件-可选.zip"  "$dst\02-ocr-optional.zip"
 
 > 注意：git 仓库里的中文文件名**完全正常**（如 `使用说明.md`），这个限制只针对 Release 附件。
 
-### 2. 删除 tag 会让 Release 变回草稿
+### 2. 别删 tag —— 用 force 更新它
 
-在 GitHub 上删除 tag，关联的 Release 会被置为 **draft**，列表页看不见、Latest 标记也会掉。
+在 GitHub 上**删除** tag，关联的 Release 会被置为 **draft**：列表页看不见、Latest 标记也会掉（附件本身仍在，但对外不可见）。
 
-workflow 里已经带了 `--draft=false` 兜底，所以重推 tag 就能自动恢复。
+**正确做法是 force 更新 tag** —— tag 名一直存在，Release 不会变 draft，附件也不受影响：
+
+```powershell
+git tag -f -a v2026.XX.XX -m "版本说明"
+git push --force origin v2026.XX.XX
+```
+
+如果已经误删了 tag，workflow 里带了 `--draft=false` 兜底，重新推同名 tag 就能自动恢复到已发布状态。
 
 ## 注意
 
 - 本仓库**只放文本、JSON 和截图**，不放大文件。程序（约 210 MiB）放 Release 附件，章节包（约 24 GiB）走网盘。
 - GitHub 单文件上限 100 MB，本仓库任何文件都不应接近这个量级。
 - 若某个 tag 没有对应的说明文件，workflow 会退回到自动生成的说明，不会失败。
-- 想重新发布某个版本，用下面的方式重推 tag（附件不受影响）：
+- 想更新某个版本的说明（比如补个链接），用 force 更新 tag 即可，附件不受影响：
 
 ```powershell
-git push --delete origin v2026.XX.XX
-git push origin v2026.XX.XX
+git tag -f -a v2026.XX.XX -m "版本说明"
+git push --force origin v2026.XX.XX
 ```
