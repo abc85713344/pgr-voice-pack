@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第31章 剪身成蝶 · 试用配音包",
+  "snapshotAt": "2026-09-24 02:03:08",
+  "sourcePackSha256": "2d34caec4ff1a4f655062a81722e0b5ed9352cad55b1fd083c0ad6819dd48545",
+  "graphFingerprint": "73BDE5F07F0F67AAE7FC7A7C9D3C0BBCB15B81A8826A33908FF45F8A577950F9",
+  "nodes": 5826,
+  "bound": 5818,
+  "audioFiles": 5593,
+  "unbound": 8,
+  "bytes": 1148650234,
+  "sha256": "e8c4685cf14091803e7ab06284422b301f25357bbc6a9c13080b6f4b98c5b489",
+  "crcVerified": true
+}

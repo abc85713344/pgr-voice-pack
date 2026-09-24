@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第12章 九龙环城 · 试用配音包",
+  "snapshotAt": "2026-09-24 01:54:13",
+  "sourcePackSha256": "6fc0cd3d2cabdb3f00c899b8aff25a00296026ae938e04e8f060709757e1853d",
+  "graphFingerprint": "9184256675D5F5CE165648AE4CB5C735DDE5A2EB2F716D6D4E4BC5D32C388A0B",
+  "nodes": 1832,
+  "bound": 1827,
+  "audioFiles": 1791,
+  "unbound": 5,
+  "bytes": 338055351,
+  "sha256": "817b2bea9e51e0de0f8468459930421ff50ed86809c315f5522acd99ad8beb7e",
+  "crcVerified": true
+}

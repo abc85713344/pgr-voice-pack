@@ -1,0 +1,74 @@
+PASS key holds fire once, rapid separate taps all fire
+PASS load and restore are silent
+PASS choice never auto plays an option
+PASS unselected route cannot be committed
+PASS malformed automatic link cannot cross an unselected route
+PASS nested choice requires its selected parent path
+PASS selected route and merge wait
+PASS back follows visited route across merge
+PASS back from choice restores last displayed line
+PASS unknown branches block without guessing
+PASS original mode blocks all playback/navigation
+PASS explicit resume leaves original mode
+PASS pause does not catch up keypresses
+PASS end does not auto enter next chapter
+PASS new route replaces abandoned history
+PASS OCR finds unselected branch without choosing or playing
+PASS OCR does not change position or play
+PASS OCR handles wrap and punctuation
+PASS OCR ignores empty and low-confidence noise
+PASS OCR stays in selected section
+PASS repeated short lines show different context without playing
+PASS ellipsis is searchable and redaction symbols remain distinct
+PASS path traversal rejected
+PASS verified route needs merge
+PASS dangling node link rejected
+PASS audio notices distinguish review, not found and missing file
+PASS completion notices distinguish visual symbols and failed verification
+PASS v3 verified segment stops before unverified common line
+PASS v3 direct commit cannot bypass segment bounds
+PASS v3 restores silently and preserves actual visit history
+PASS v3 malformed cross-route segment rejected
+PASS v3 original mode suppresses continuation and reopen
+PASS nested choices without dialogue have independent rollback checkpoints
+PASS repeated visits to the same menu retain their own before-state
+PASS confirming a replacement that enters another menu immediately truncates future
+PASS manual correction is one-step undoable and normal advancing expires undo
+PASS history restoration restores route snapshot and stays silent until explicit play
+PASS navigation snapshots are independent and import silently
+PASS old history migration never invents selection checkpoints
+PASS changed graph refuses snapshots but audio and display repairs preserve compatibility
+PASS corrupt visit and selection cursors are rejected without partial restoration
+PASS bookmarks restore complete navigation silently and can be undone
+PASS original mode blocks new history and branch navigation
+PASS unreviewed option and verified segment boundary remain protected after navigation
+PASS chapter progress is independent and a corrupt file recovers previous valid backup
+PASS legacy chapter migration runs once and bookmarks persist separately
+PASS settings backup read preserves the last valid file
+PASS one-step correction undo survives restart without recursive snapshots or audio
+PASS history preview pause does not reopen a waiting menu
+PASS unreadable chapter progress blocks automatic legacy replacement and preserves evidence
+PASS structurally corrupt progress recovers valid backup and retains it on next save
+PASS incompatible old graph is retained when user confirms a new starting point
+PASS trusted interaction root and proven topic chains open silently in either person order
+PASS return-to-topic leaves heard and game facts unchanged and remains undoable
+PASS interaction navigation never unlocks unproved entry, blocked condition or noncontinuous body
+PASS topic navigation cannot skip an intervening exclusive choice
+PASS interaction menu jump trims abandoned future but undo restores it
+PASS interaction original-mode guard and unknown topic boundary remain intact
+PASS approved old navigation fingerprints still validate every restored point
+PASS menu entry evidence alone does not invalidate existing graph progress
+PASS all-section menu directory works without claiming free interaction
+PASS generic menu location stops at the nearest provable parent
+PASS generic menu location cannot pass intermediate choice, return or unmet prerequisite
+PASS return to an actually visited choice restores its own conditions
+PASS generic unknown branch ends at its original boundary instead of inventing a loop
+PASS generic menu snapshots restart silently and original mode refuses all locations
+PASS unproven menu failures are inert and same-name menus remain distinct
+PASS generic browsing scopes are explicit and initial directory needs no playback
+PASS manual menu positioning bypasses stale prerequisites without inventing facts
+PASS OCR line confirmation selects only verified segment and undo restores old route
+PASS unverified OCR line is single only with persistent history
+PASS OCR recognizes choice labels before prerequisites and remains silent
+PASS battle subtitle fragments keep left-to-right order despite sloped boxes
+RESULT: 73 tests passed

@@ -1,0 +1,7 @@
+PASS: F9 in expanded panel explains disabled OCR without playback
+PASS: F1 from bound foreground opens manual branches even when main panel is expanded, without playback
+PASS: F9 from bound foreground works with panel expanded and no starting playback
+PASS: real screenshot and packaged OCR display expected candidate and recognized text
+PASS: locate button activates bound window and returns candidates without playback
+PASS: changing section during capture cancels stale results and preserves progress
+PASS: minimized game shows actionable error without playback

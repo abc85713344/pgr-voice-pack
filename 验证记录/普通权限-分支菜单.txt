@@ -1,0 +1,8 @@
+PASS: automatic compact menu preserves simulated game focus and stays silent
+PASS: hook consumes menu keys, repeat is ignored, Escape preserves selection
+PASS: confirm plays correct condition hint once; repeat and release remain consumed
+PASS: advancing after segment returns menu; original mode suppresses menu and sound
+PASS: only four menu keys from bound game/player are captured; advance and foreign app pass through
+PASS: interaction navigation blocks advance, confirms silently and preserves focus; Enter repeat/release cannot choose a topic twice
+PASS: unresolved route leaves menu and recovery controls visible
+PASS: v3 segment confirmation, mandatory boundary, silent reopen and original mode

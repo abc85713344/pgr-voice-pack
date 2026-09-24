@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第39章 冬冕的凋亡 · 试用配音包",
+  "snapshotAt": "2026-09-24 02:06:49",
+  "sourcePackSha256": "7544f1969a95fcd915093ca87b2e94bd252cfb2cc9ff6ac0a780ad297d47a6dc",
+  "graphFingerprint": "124B7B81C3B06C234E473D4849173B0A0256014FF4F070AA013A452338762BB5",
+  "nodes": 1813,
+  "bound": 1811,
+  "audioFiles": 1808,
+  "unbound": 2,
+  "bytes": 437821054,
+  "sha256": "0dd9e24040265d31695e5d691691c36838ccf4bd2bde259521deb0b1be6f09f9",
+  "crcVerified": true
+}

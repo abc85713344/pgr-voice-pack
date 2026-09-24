@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第41章 长路归航 · 试用配音包",
+  "snapshotAt": "2026-09-24 02:07:45",
+  "sourcePackSha256": "61a229b0247bfaf61e6f871a58bd10aa8cf1182f633bb23222381eaa0d0bd3ba",
+  "graphFingerprint": "34E3FF4CB3BE07D7BC2AC9848F0A2057346E416D22AC9EAAEAB3A12E34F845F3",
+  "nodes": 6375,
+  "bound": 6364,
+  "audioFiles": 6249,
+  "unbound": 11,
+  "bytes": 1340362502,
+  "sha256": "c7bc1e2b931a927f48f3875e09b9b03bfe534b71f8ec57e6dd79f00413eccf4c",
+  "crcVerified": true
+}

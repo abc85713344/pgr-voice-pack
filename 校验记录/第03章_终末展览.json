@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第3章 终末展览 · 试用配音包",
+  "snapshotAt": "2026-09-24 01:53:36",
+  "sourcePackSha256": "6f9ab331af0c8bfd1bc6148642edd8a9de7ed6ef2fb3d293fb4835dd4ee75ac5",
+  "graphFingerprint": "02D73C982CC6B9EE387FABEF9ED2AA4CED76C0C79F7CA9406B29BD4484A6246A",
+  "nodes": 433,
+  "bound": 433,
+  "audioFiles": 420,
+  "unbound": 0,
+  "bytes": 53966043,
+  "sha256": "d062928f70e3f94ff6c0b5a62027f4e6193904263f0f00f02d5e03377db51b2b",
+  "crcVerified": true
+}

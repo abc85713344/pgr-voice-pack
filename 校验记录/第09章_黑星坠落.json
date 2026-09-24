@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第9章 黑星坠落 · 试用配音包",
+  "snapshotAt": "2026-09-24 01:53:52",
+  "sourcePackSha256": "10371954298a1feb3082b7858c77a7f6c8303100a1b97264f0fc7ab51e52d8d9",
+  "graphFingerprint": "649CC71E33751395921BE3D2F21F84FB127EF84C9ADDE0E23DD032395F6B4E71",
+  "nodes": 1158,
+  "bound": 1158,
+  "audioFiles": 1110,
+  "unbound": 0,
+  "bytes": 153187974,
+  "sha256": "86dbf497ed85e66d864208d340b6df6a4f32a5abeab590f423f3c88e4e93bf0e",
+  "crcVerified": true
+}

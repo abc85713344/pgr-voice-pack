@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第6章 合金浸染 · 试用配音包",
+  "snapshotAt": "2026-09-24 01:53:44",
+  "sourcePackSha256": "3319eb611b132f9a59178c6d489b60a997f069aa9cf0bb22b2173d178e80bcdf",
+  "graphFingerprint": "6A03EF091F930FFDDD3DC261A1585F74A5B187A1B35BD0B737BAA67336BDBBE6",
+  "nodes": 559,
+  "bound": 558,
+  "audioFiles": 519,
+  "unbound": 1,
+  "bytes": 69419075,
+  "sha256": "7f9da5678c4cafab1cb76f43d7eced695870e0ec45828b18fe22d8cf89af6d7d",
+  "crcVerified": true
+}

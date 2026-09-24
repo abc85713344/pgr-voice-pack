@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第33章 锈夜逐光 · 试用配音包",
+  "snapshotAt": "2026-09-24 02:04:16",
+  "sourcePackSha256": "78bbd8a30721ebdb4fdeb451296a8dde2baac8a2bbccfb830bebc7d70e7a1249",
+  "graphFingerprint": "112B3565D9A13393129394C9E04BE9255D4984357B004383C3A6769859CF5E6A",
+  "nodes": 5623,
+  "bound": 5622,
+  "audioFiles": 5466,
+  "unbound": 1,
+  "bytes": 1002388406,
+  "sha256": "13e8ab4c11217d38c94b88bc4682064e5ba259f40b32493865b9864caa7cd0e0",
+  "crcVerified": true
+}

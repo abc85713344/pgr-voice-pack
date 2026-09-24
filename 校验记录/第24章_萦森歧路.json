@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第24章 萦森歧路 · 试用配音包",
+  "snapshotAt": "2026-09-24 01:59:34",
+  "sourcePackSha256": "15ab71fd71302ffa898b139a1dc61122a3b4e98c408c187b346950b00fa67e9d",
+  "graphFingerprint": "D143E33E3E398ACB365749955AB4FF4D0D3B180B7490FF38C58A81A261033494",
+  "nodes": 2649,
+  "bound": 2649,
+  "audioFiles": 2566,
+  "unbound": 0,
+  "bytes": 536686353,
+  "sha256": "018f5ab01eb8293e3166370860d1de886e5fd6b5e9000b9863962cb791fdc9ee",
+  "crcVerified": true
+}

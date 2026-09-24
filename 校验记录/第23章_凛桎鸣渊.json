@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第23章 凛桎鸣渊 · 试用配音包",
+  "snapshotAt": "2026-09-24 01:59:14",
+  "sourcePackSha256": "6135267dd85f241b97ccb4b617b07e8d44589cb7cb31508e3abd37165547d27d",
+  "graphFingerprint": "257089ADD60E527992571A8C5FD985EC8D8BA7DA8E4DC42337BD9C02EE4DB3CC",
+  "nodes": 2481,
+  "bound": 2476,
+  "audioFiles": 2467,
+  "unbound": 5,
+  "bytes": 499692573,
+  "sha256": "9cf521471cca9650f32cea806f3bbab7958a398a7e21da20c0360a90ed2afe51",
+  "crcVerified": true
+}

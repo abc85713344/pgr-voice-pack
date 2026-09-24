@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第26章 摇篮游行 · 试用配音包",
+  "snapshotAt": "2026-09-24 02:00:15",
+  "sourcePackSha256": "62bb2f2a2632813afe8e96db0988407d8b9c465a9b5276e589ad02296c7c013a",
+  "graphFingerprint": "E5BA2DFF201481E7E674ED6D53BA91252656501F38CE12B63B1DF358AF1BF093",
+  "nodes": 4835,
+  "bound": 4820,
+  "audioFiles": 4719,
+  "unbound": 15,
+  "bytes": 889190355,
+  "sha256": "07151a7a0e5a2c32246cdddbff4da4769d6fc2dd2765cd07f923c67de3973a9c",
+  "crcVerified": true
+}

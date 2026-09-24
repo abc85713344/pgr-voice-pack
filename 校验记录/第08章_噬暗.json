@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第8章 噬暗 · 试用配音包",
+  "snapshotAt": "2026-09-24 01:53:50",
+  "sourcePackSha256": "75cad2ffe035d1499137c59e7352ade01c9f23b7a78909ff639d9c8bd12d2210",
+  "graphFingerprint": "34B05BD17A921D5F711EF5C8147702E42ADA6C0FA70C7ACE7C15B314B872FF28",
+  "nodes": 412,
+  "bound": 411,
+  "audioFiles": 397,
+  "unbound": 1,
+  "bytes": 51898121,
+  "sha256": "d6277eb13f02f1bd0d5707c221714da63baf7c6ed7cc92fe6120b9130969a6ca",
+  "crcVerified": true
+}

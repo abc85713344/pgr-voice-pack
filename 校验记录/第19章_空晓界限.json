@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第19章 空晓界限 · 试用配音包",
+  "snapshotAt": "2026-09-24 01:57:16",
+  "sourcePackSha256": "0a4501822493ff59625b202c807d6ef0240f524cc8ffdecbf5fe35a798f2de12",
+  "graphFingerprint": "7625D9CBD7FA64521FDCE8E34958988326E13EA930C8E2E590D6A043E5C032D0",
+  "nodes": 1877,
+  "bound": 1877,
+  "audioFiles": 1870,
+  "unbound": 0,
+  "bytes": 560346248,
+  "sha256": "37e7447978317806d327eace7e0e52af0309579d2497f4ed4ec76c6bea2e50a6",
+  "crcVerified": true
+}

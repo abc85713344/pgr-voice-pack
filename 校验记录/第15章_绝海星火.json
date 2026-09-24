@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第15章 绝海星火 · 试用配音包",
+  "snapshotAt": "2026-09-24 01:55:40",
+  "sourcePackSha256": "2590a74b2fa346e9242b1c21ae6df7724930d1529dbf52e2f6720f323329ff33",
+  "graphFingerprint": "EC53F7E34655C706C19951AEC25DA7E98F13B6253E18EA9DAE90A62993087D4C",
+  "nodes": 2215,
+  "bound": 2215,
+  "audioFiles": 2191,
+  "unbound": 0,
+  "bytes": 505831181,
+  "sha256": "a0d645e93e16de505cd42e207ec26492d3585465712d7a0d937ecd68f28e8202",
+  "crcVerified": true
+}

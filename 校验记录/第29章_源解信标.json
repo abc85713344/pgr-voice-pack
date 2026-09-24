@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第29章 源解信标 · 试用配音包",
+  "snapshotAt": "2026-09-24 02:02:26",
+  "sourcePackSha256": "7783e641fd4c52a672d3948f367274aa5ce31cafa359f4e120c566edd9986437",
+  "graphFingerprint": "D0F5C40717027AA67E2718B2BC3DF7CD404733CD4293463FA58E912502C167DA",
+  "nodes": 3560,
+  "bound": 3556,
+  "audioFiles": 3473,
+  "unbound": 4,
+  "bytes": 618953884,
+  "sha256": "485aded5bd8ae405d5ddc75decaec4b90c317790b4f0bec2cb73fd2216ae788b",
+  "crcVerified": true
+}

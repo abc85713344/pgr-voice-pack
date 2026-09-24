@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第21章 刻命螺旋 · 试用配音包",
+  "snapshotAt": "2026-09-24 01:58:02",
+  "sourcePackSha256": "e8c6c578c65e3ca4495045c0e570761cf8fd67fe3123639d2f1cbb00d0689cf6",
+  "graphFingerprint": "9F8B63E729BF7303AD225F4922593E06C250F80A84259B0F6BCD16737C664E6E",
+  "nodes": 4313,
+  "bound": 4313,
+  "audioFiles": 4229,
+  "unbound": 0,
+  "bytes": 925094020,
+  "sha256": "e7f24162b8990495631f51bd449d1ee847537e4198fc2c8451b0e93d1753d7a7",
+  "crcVerified": true
+}

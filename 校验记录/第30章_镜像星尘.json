@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第30章 镜像星尘 · 试用配音包",
+  "snapshotAt": "2026-09-24 02:02:49",
+  "sourcePackSha256": "5ee9affd7c0ce308e7e482ffe07f78504d2e0dad6506092c4188bbf5ca4e74f9",
+  "graphFingerprint": "40C6601FF1FCA22FAED32728388C582333F07F5594AF520113B844D5B17B4883",
+  "nodes": 2734,
+  "bound": 2733,
+  "audioFiles": 2642,
+  "unbound": 1,
+  "bytes": 489549994,
+  "sha256": "cc45d6230e91a3761b9c966f5cdb9573b156feb2aa97c949ec5a4ea7b30da2ea",
+  "crcVerified": true
+}

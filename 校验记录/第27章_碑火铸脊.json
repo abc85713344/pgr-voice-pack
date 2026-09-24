@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第27章 碑火铸脊 · 试用配音包",
+  "snapshotAt": "2026-09-24 02:00:49",
+  "sourcePackSha256": "451cb656c1e3941c93684452508254a8e4e14a40eaf80f2c654ea9292c6cc6c8",
+  "graphFingerprint": "CFF9340E89BF7CE94ACC70E4F0048CB3A2CDAA7EB7BCBF2E9205EF93CEF6F290",
+  "nodes": 4998,
+  "bound": 4995,
+  "audioFiles": 4816,
+  "unbound": 3,
+  "bytes": 870973491,
+  "sha256": "15e4f8ae1f1287d55695e248a103893b8a2a37af4b7db77d00ab4e5e1f0dc141",
+  "crcVerified": true
+}

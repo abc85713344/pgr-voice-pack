@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第10章 永久列车 · 试用配音包",
+  "snapshotAt": "2026-09-24 01:53:58",
+  "sourcePackSha256": "a0e3e8e4a8c6a877394b7503d41b751d49f18530cfd8e0e8e01aa43c5d15c7d8",
+  "graphFingerprint": "AFD08663145A4698219B370C401D40BC19031583037D9F79D90F6DE08BE960F1",
+  "nodes": 1038,
+  "bound": 1032,
+  "audioFiles": 1022,
+  "unbound": 6,
+  "bytes": 170087189,
+  "sha256": "6ff9876c63d367a5aa2a71db5ee27bb78aedec7d226fba27d48a8d343e74b22d",
+  "crcVerified": true
+}

@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第35章 覆海离声 · 试用配音包",
+  "snapshotAt": "2026-09-24 02:05:17",
+  "sourcePackSha256": "428d6b469acd083abda5a44d19cd74699d8535c2164d68476657a203899c149f",
+  "graphFingerprint": "FEF5DBED67942CCB3150ED211BB7411E7504B03E199E634429A2C7AB56F9A634",
+  "nodes": 3576,
+  "bound": 3576,
+  "audioFiles": 3492,
+  "unbound": 0,
+  "bytes": 600848581,
+  "sha256": "51e94a374e1906860d20128762dad66900198c77f867ce29a4dfd3a58df979e9",
+  "crcVerified": true
+}

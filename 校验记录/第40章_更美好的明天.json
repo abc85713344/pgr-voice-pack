@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第40章 更美好的明天 · 试用配音包",
+  "snapshotAt": "2026-09-24 02:07:06",
+  "sourcePackSha256": "c6a33ec79f86b494f6052be68d9b0c48ae4f3cf8a0bc385b1da3d14850d80b87",
+  "graphFingerprint": "A50398B85AB8307B5A55C76668567185F74A0E27D9C5DDDCF0725B2D2FAC579D",
+  "nodes": 4909,
+  "bound": 4903,
+  "audioFiles": 4839,
+  "unbound": 6,
+  "bytes": 1054302927,
+  "sha256": "1c2420983101a10e4a3fc19e18de5b77d9b0db8a7243e81aef2d3f888cc4d988",
+  "crcVerified": true
+}

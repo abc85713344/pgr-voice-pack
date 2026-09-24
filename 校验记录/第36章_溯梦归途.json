@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第36章 溯梦归途 · 试用配音包",
+  "snapshotAt": "2026-09-24 02:05:40",
+  "sourcePackSha256": "58df7ee6e5a6eaca743e59cdc78438c1a2b3277835441ea705286d7f2abdbbb1",
+  "graphFingerprint": "0E57B4155CA801FA813778F98C2AB24A9116D3CD06F33B58D7ABF289A540770A",
+  "nodes": 2718,
+  "bound": 2717,
+  "audioFiles": 2669,
+  "unbound": 1,
+  "bytes": 493531464,
+  "sha256": "be1f97e6257eb6a4bcfe6cb3e393339e9528612c66cc69d2fd6244252904cdfb",
+  "crcVerified": true
+}

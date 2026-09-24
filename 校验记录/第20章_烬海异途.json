@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第20章 烬海异途 · 试用配音包",
+  "snapshotAt": "2026-09-24 01:57:37",
+  "sourcePackSha256": "3468d4ec2d909cc5b1a37e8146662193222936135058f29dc4d954568ccea63e",
+  "graphFingerprint": "D2FD9A22721E27984602FFF03E4ADFDB6179A0117B23E52EAF24963E914F8CBA",
+  "nodes": 3168,
+  "bound": 3164,
+  "audioFiles": 3082,
+  "unbound": 4,
+  "bytes": 659525756,
+  "sha256": "1459aab7b902fa1eeb6e9e938381a76f250963464a1e7fc95ee78581e20ae050",
+  "crcVerified": true
+}

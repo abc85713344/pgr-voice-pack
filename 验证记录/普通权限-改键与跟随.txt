@@ -1,0 +1,6 @@
+PASS: focused dialog receives native keyboard event and persists new binding
+PASS: duplicate key blocks saving and Escape cancels
+PASS: cancelling a valid candidate keeps previous binding
+PASS: choosing from key list saves and refreshes on-screen shortcut hints
+PASS: key editing never plays audio or moves story progress
+PASS: old follow key stops advancing and new follow key advances exactly once

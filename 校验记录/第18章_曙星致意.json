@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第18章 曙星致意 · 试用配音包",
+  "snapshotAt": "2026-09-24 01:57:00",
+  "sourcePackSha256": "6f25bff5f869085462029c57161a9d71e32038202bb93b4fc6e617214062f5d0",
+  "graphFingerprint": "CECDBB727DF94DD0FE120423424B3CB9D9F742DA0F3575BB1658A536B560F067",
+  "nodes": 1789,
+  "bound": 1789,
+  "audioFiles": 1767,
+  "unbound": 0,
+  "bytes": 442661224,
+  "sha256": "f68ee0e45c93b6eb849e8a8232d777a0744ca0e5506d549b06a77452bd1f9ce4",
+  "crcVerified": true
+}

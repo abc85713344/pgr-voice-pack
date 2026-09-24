@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第38章 推想视限 · 试用配音包",
+  "snapshotAt": "2026-09-24 02:06:29",
+  "sourcePackSha256": "c658af111e410c1bb7d6e7cb6efab2653d60feccb0e02eb37e1dc381fa1670eb",
+  "graphFingerprint": "192CD0DE61D7040A3812B0CB71288EDF67DE9CDA47AD1583CDBD27A22F6D7FFE",
+  "nodes": 3316,
+  "bound": 3315,
+  "audioFiles": 3235,
+  "unbound": 1,
+  "bytes": 538809191,
+  "sha256": "07795a8f6c492d9c9be846e93d88cf8445858ff6c631bd43ce12eb7173336d6b",
+  "crcVerified": true
+}

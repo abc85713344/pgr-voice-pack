@@ -1,0 +1,8 @@
+﻿# 统一文本换行，避免 Windows/Linux 差异
+* text=auto
+
+# 二进制文件不做换行转换
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.docx binary

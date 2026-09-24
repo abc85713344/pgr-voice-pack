@@ -1,0 +1,5 @@
+﻿# 临时产物
+*.tmp
+~$*.docx
+Thumbs.db
+.DS_Store

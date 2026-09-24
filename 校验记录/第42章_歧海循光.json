@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第42章 歧海循光 · 试用配音包",
+  "snapshotAt": "2026-09-24 02:08:35",
+  "sourcePackSha256": "da8acc337fac3ea4e21cc7b7c04318c002c41a63f619bb37aeebc8df9175ab62",
+  "graphFingerprint": "CD246C055FBC846039F4514E535DFE5116EB97D1C3A87AFAEB1D4ACD901F1B1B",
+  "nodes": 9268,
+  "bound": 9267,
+  "audioFiles": 9114,
+  "unbound": 1,
+  "bytes": 1953507756,
+  "sha256": "92767c95f276587e0ab432b01f9d697ed88d90d00f648f7ab4cef2d77ec1e7ba",
+  "crcVerified": true
+}

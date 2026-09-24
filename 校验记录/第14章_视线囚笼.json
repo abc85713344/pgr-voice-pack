@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第14章 视线囚笼 · 试用配音包",
+  "snapshotAt": "2026-09-24 01:55:12",
+  "sourcePackSha256": "fa1d32f0fde01bbb775bcc438a73e0cb83024d7ab85f9d2efee8b9fb8689d715",
+  "graphFingerprint": "8E0A594494654EA95045566D111411208BD9E4C3E9FC6BD692CA5C56BF24AD7D",
+  "nodes": 4009,
+  "bound": 4008,
+  "audioFiles": 3813,
+  "unbound": 1,
+  "bytes": 729894703,
+  "sha256": "fb42dea4b93878c15485f8afacb2ddaafc000acff9790ddd91e7f6419d2073d9",
+  "crcVerified": true
+}

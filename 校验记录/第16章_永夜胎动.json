@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第16章 永夜胎动 · 试用配音包",
+  "snapshotAt": "2026-09-24 01:55:59",
+  "sourcePackSha256": "f61f45ae20cd4e2f94fdd1010e757e03e795d879e1deb02b5ab4b18ed657f389",
+  "graphFingerprint": "8AD515F77ACF13BACFD05C604553ED03E64D63821E309BF6F2DD229F85640850",
+  "nodes": 2808,
+  "bound": 2807,
+  "audioFiles": 2765,
+  "unbound": 1,
+  "bytes": 668839240,
+  "sha256": "05e9df99d68323ac79581d99d35a527d733e7f94d6cae63596040d34b7004310",
+  "crcVerified": true
+}

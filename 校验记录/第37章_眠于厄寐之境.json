@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第37章 眠于厄寐之境 · 试用配音包",
+  "snapshotAt": "2026-09-24 02:05:59",
+  "sourcePackSha256": "d37c1c951c4f333104f636a6da74afcd9133bc36172a27bf7bc09b6acd3a2f9d",
+  "graphFingerprint": "5D311FE46EACCB8C83440399BAA414A48F2637D49A3A3885DBD841DAE0031047",
+  "nodes": 4480,
+  "bound": 4478,
+  "audioFiles": 4401,
+  "unbound": 2,
+  "bytes": 797305791,
+  "sha256": "dc88e9c687f13487dc6b9de865c91013e66b547caf622e64dd3accd30f149c7b",
+  "crcVerified": true
+}

@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第25章 爝火长明 · 试用配音包",
+  "snapshotAt": "2026-09-24 01:59:54",
+  "sourcePackSha256": "90988fc0ea18ab32af669e93222755f307c52dcb2cc8f4336cc8ddfadd4d185b",
+  "graphFingerprint": "60CE2D6F6739DDAB3D82148673260CED18A4F5762D93E9C9A5E882A39B6F4575",
+  "nodes": 3092,
+  "bound": 3084,
+  "audioFiles": 3020,
+  "unbound": 8,
+  "bytes": 545917235,
+  "sha256": "3c19a6bb0d47354c7e4cc803c0ed983ec2c446b0a4dc53cefdb5f5a27b2e4c38",
+  "crcVerified": true
+}

@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第5章 破碎幻影 · 试用配音包",
+  "snapshotAt": "2026-09-24 01:53:42",
+  "sourcePackSha256": "464ef8acdeeea35e514ccfd0999df0f03e53a2196953fb47a83cb634660fd5bb",
+  "graphFingerprint": "6556FF59CEBD4B5EB4515E5C37D793D5DFB0DB9CA50C2A974A31F0A72971A2AD",
+  "nodes": 414,
+  "bound": 414,
+  "audioFiles": 408,
+  "unbound": 0,
+  "bytes": 53438111,
+  "sha256": "d29a3919e0cef197ca05ee5f15d5e9cb0fa3da1a3875af78d232f13f38f18c78",
+  "crcVerified": true
+}

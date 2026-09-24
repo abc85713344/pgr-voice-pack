@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第22章 创绘映想 · 试用配音包",
+  "snapshotAt": "2026-09-24 01:58:36",
+  "sourcePackSha256": "f85747e608c139a10ff87616a7bcaa3221eebf16f59f3034a665740b582264f1",
+  "graphFingerprint": "AA253E7310A1193F7D60938D1CC0BD460E3F403BD40A7FC779DAECF6845828B5",
+  "nodes": 4749,
+  "bound": 4746,
+  "audioFiles": 4596,
+  "unbound": 3,
+  "bytes": 1032417118,
+  "sha256": "f3cd37249779409a05561567c89680423367d933e86e0df07b21fddd6cbe2520",
+  "crcVerified": true
+}

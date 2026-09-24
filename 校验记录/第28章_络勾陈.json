@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第28章 络勾陈 · 试用配音包",
+  "snapshotAt": "2026-09-24 02:01:22",
+  "sourcePackSha256": "021988fc0428b19ab2f3339a136b4cdc6c0738ea7a517807caede5ce6f514cf6",
+  "graphFingerprint": "68627DA11B36F04CD3F1933C0D29C78A9EB7BD6EAF3B0B034864C4118C11DAE1",
+  "nodes": 8761,
+  "bound": 8752,
+  "audioFiles": 8661,
+  "unbound": 9,
+  "bytes": 1686917723,
+  "sha256": "976b7dd3e890a43485f65065f90285b1d65074657f846431671581a2ca8c110a",
+  "crcVerified": true
+}

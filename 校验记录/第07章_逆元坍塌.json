@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第7章 逆元坍塌 · 试用配音包",
+  "snapshotAt": "2026-09-24 01:53:47",
+  "sourcePackSha256": "67919c56fc7fc4d25aece93f01af1cede81742157233540868c311d614854860",
+  "graphFingerprint": "956F6CC3915AF19ACC8173C23C7B32AFB78B2BA1713C398257ACBF3FB1362BC0",
+  "nodes": 474,
+  "bound": 474,
+  "audioFiles": 467,
+  "unbound": 0,
+  "bytes": 73581799,
+  "sha256": "b96a0c33ec894d779eae35f92c85a37902ea1fff99aca38b80e7036b9ff64632",
+  "crcVerified": true
+}

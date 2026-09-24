@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第32章 遥行循星 · 试用配音包",
+  "snapshotAt": "2026-09-24 02:03:51",
+  "sourcePackSha256": "362a4c14316442f6d7d2b169501ac30e5d58f4ce8d1efb2b2f83d6d23aa6f7f2",
+  "graphFingerprint": "040B76AC9D558FE51F0878D5AA99315861FEAD0CF90FA0B650A5417864ED64E7",
+  "nodes": 3880,
+  "bound": 3879,
+  "audioFiles": 3766,
+  "unbound": 1,
+  "bytes": 670976936,
+  "sha256": "8f6985c85a8328ec42b728ea4cc5efa0e61475b405eca6f44c5ec4f1e9577192",
+  "crcVerified": true
+}

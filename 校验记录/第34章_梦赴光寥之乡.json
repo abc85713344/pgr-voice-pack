@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第34章 梦赴光寥之乡 · 试用配音包",
+  "snapshotAt": "2026-09-24 02:04:54",
+  "sourcePackSha256": "bd401c8dc7dd5971437715ae4d40b165da6a4733bc663decb3ce657195128c35",
+  "graphFingerprint": "9387448177330A65AE3E617B3C796EA36A91A533FA627B69B3903C381555E32F",
+  "nodes": 2986,
+  "bound": 2986,
+  "audioFiles": 2948,
+  "unbound": 0,
+  "bytes": 575817822,
+  "sha256": "e2a62890722537ebecd9a9988879c7222b9a7cfcdcf43d27f47ebfd206bd9bbc",
+  "crcVerified": true
+}

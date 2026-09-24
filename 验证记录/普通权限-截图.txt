@@ -1,0 +1,4 @@
+PASS: reopening reveals panel and taskbar entry without playback; desktop capture allowed
+PASS: branch menu permits normal screenshots
+PASS: OCR capture excludes overlay and restores it immediately
+PASS: cancellation restores visible panel; no audio or progress changes

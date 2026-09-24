@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第4章 遗忘黄沙 · 试用配音包",
+  "snapshotAt": "2026-09-24 01:53:39",
+  "sourcePackSha256": "c7cd5a0a7c439c8e3ab70b7ebaf7ec5f22e4bb1e3a9711cf1e15a6cdcf76f6c8",
+  "graphFingerprint": "6A47DB32A2195D686DF4819E1A9F37C1DFCA30C02F9824A44E580BC4F27E3CEF",
+  "nodes": 460,
+  "bound": 459,
+  "audioFiles": 456,
+  "unbound": 1,
+  "bytes": 62000726,
+  "sha256": "514d4dcc5f3762b35f60580359307d299a999e91dddebf67f36c07ae328db236",
+  "crcVerified": true
+}

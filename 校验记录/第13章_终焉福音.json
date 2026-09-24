@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第13章 终焉福音 · 试用配音包",
+  "snapshotAt": "2026-09-24 01:54:26",
+  "sourcePackSha256": "d26568de12dfc9d8f9dd6adae4ff437def82312a49a4cc2e29ac0e76303fdcc6",
+  "graphFingerprint": "95B4A63E4002614DFBB4451F767537D3E3B70AECD2A56C929FF25C9DFD0F5BFB",
+  "nodes": 6629,
+  "bound": 6628,
+  "audioFiles": 6494,
+  "unbound": 1,
+  "bytes": 1256383157,
+  "sha256": "1673794e9d3261859c9157b4598a337d89a0047f96a477b4c8c6bb8e412a6906",
+  "crcVerified": true
+}

@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第17章 湮灭残昼 · 试用配音包",
+  "snapshotAt": "2026-09-24 01:56:23",
+  "sourcePackSha256": "2ac685d602a1eb55b303ec43cc1b60eb28421c75136b77f9de6917f38e177bcf",
+  "graphFingerprint": "7F3F5509522348A8CB028615014CBC943542355C71714AC9670D4AE6319B7028",
+  "nodes": 4854,
+  "bound": 4854,
+  "audioFiles": 4758,
+  "unbound": 0,
+  "bytes": 986909257,
+  "sha256": "b98d75c1b7605a22660c81359267bc4d584f3ef799f140b3ba4bafcd4a30af2e",
+  "crcVerified": true
+}

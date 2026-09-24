@@ -1,0 +1,14 @@
+{
+  "version": "2026.09.24-ocr-manual-branches",
+  "chapter": "第11章 九龙夜航 · 试用配音包",
+  "snapshotAt": "2026-09-24 01:54:05",
+  "sourcePackSha256": "9721ffbee621094511be965270aec43bcd48bc6f1bb7a22b0bbfcf330d31e927",
+  "graphFingerprint": "F38A5A642787A420CDC01CDD0558CA9FC1DF221C2999717A9B3036CF2ED15D1D",
+  "nodes": 1238,
+  "bound": 1235,
+  "audioFiles": 1221,
+  "unbound": 3,
+  "bytes": 204974331,
+  "sha256": "10960311308edef28bb3560a1b25d914251bfb782c18b3e1b74ef72b1986bc59",
+  "crcVerified": true
+}
