@@ -2,7 +2,11 @@ name: 发布 Release
 
 # 推送形如 v2026.09.24 的 tag 时：
 #   - Release 不存在 -> 用 release-notes/<tag>.md 创建
-#   - Release 已存在 -> 只更新说明文字，保留已上传的附件
+#   - Release 已存在 -> 更新说明并确保处于「已发布」状态，保留已上传的附件
+#
+# 注意：在 GitHub 上删除 tag 会把关联的 Release 变成 draft（草稿），
+#      所以这里显式带上 --draft=false 兜底，避免版本页对外不可见。
+#
 # 使用 GitHub 自动注入的 GITHUB_TOKEN，无需配置任何 Personal Access Token。
 
 on:
@@ -29,11 +33,11 @@ jobs:
           NOTES="release-notes/${TAG}.md"
 
           if gh release view "$TAG" >/dev/null 2>&1; then
-            echo "Release $TAG 已存在 -> 只更新说明，附件保持不动"
+            echo "Release $TAG 已存在 -> 更新说明并确保已发布，附件保持不动"
             if [ -f "$NOTES" ]; then
-              gh release edit "$TAG" --notes-file "$NOTES"
+              gh release edit "$TAG" --title "$TAG" --draft=false --notes-file "$NOTES"
             else
-              gh release edit "$TAG" --generate-notes
+              gh release edit "$TAG" --title "$TAG" --draft=false --generate-notes
             fi
           else
             echo "创建 Release $TAG"
@@ -43,3 +47,6 @@ jobs:
               gh release create "$TAG" --title "$TAG" --generate-notes
             fi
           fi
+
+          echo "--- 当前状态 ---"
+          gh release view "$TAG" --json isDraft,isLatest,tagName,url
