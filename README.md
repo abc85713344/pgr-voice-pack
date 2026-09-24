@@ -6,6 +6,8 @@ Windows 10 / 11 **x64** 免安装，程序自带运行环境，**不需要安装
 
 **版本 2026.09.24**（普通权限键盘跟随修复）｜[版本历史与发布说明](https://github.com/abc85713344/pgr-voice-pack/releases)
 
+**社区发布**：[NGA 发布帖](https://ngabbs.com/read.php?tid=47614112) ｜ [B站演示视频](https://www.bilibili.com/video/BV1FPhZ6EZB/)
+
 > **这个仓库只放说明文档、校验清单和界面预览。**
 > 实际文件（播放器 + 40 个章节包 + 可选 OCR）合计约 **24 GiB**，体积远超 GitHub 的限制，**在网盘下载**，见下方 [下载](#下载)。
 
