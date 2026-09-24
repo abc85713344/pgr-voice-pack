@@ -32,12 +32,43 @@ git push origin v2026.XX.XX
 
 **不需要配置任何 Personal Access Token** —— workflow 用的是 GitHub 自动注入的 `GITHUB_TOKEN`。
 
+## ⚠️ 两个踩过的坑
+
+### 1. Release 附件名只能用英文，不能用中文
+
+通过网页上传附件时，GitHub 会把文件名里的非 ASCII 字符替换成点。实测：
+
+| 上传时你看到的文件名 | GitHub 实际存成 |
+|---|---|
+| `01-播放器-Windows-x64.zip` | `01-.-Windows-x64.zip` |
+| `02-OCR组件-可选.zip` | `02-OCR.-.zip` |
+
+**所以上传前先把文件复制成英文名**，把副本拖上去：
+
+```powershell
+$src='F:\战双配音包\网络发布包-XXXXXX'
+$dst='F:\战双配音包\github上传用'
+New-Item -ItemType Directory -Force -Path $dst | Out-Null
+Copy-Item "$src\01-播放器-Windows-x64.zip" "$dst\01-player-windows-x64.zip"
+Copy-Item "$src\02-OCR组件-可选.zip"  "$dst\02-ocr-optional.zip"
+```
+
+压缩包**内部**的文件夹名不受影响，仍是中文的「战双剧情配音播放器」，玩家解压后体验一样。
+
+> 注意：git 仓库里的中文文件名**完全正常**（如 `使用说明.md`），这个限制只针对 Release 附件。
+
+### 2. 删除 tag 会让 Release 变回草稿
+
+在 GitHub 上删除 tag，关联的 Release 会被置为 **draft**，列表页看不见、Latest 标记也会掉。
+
+workflow 里已经带了 `--draft=false` 兜底，所以重推 tag 就能自动恢复。
+
 ## 注意
 
-- 本仓库**只放文本、JSON 和截图**，不放大文件。程序与音频（约 24 GiB）走网盘。
+- 本仓库**只放文本、JSON 和截图**，不放大文件。程序（约 210 MiB）放 Release 附件，章节包（约 24 GiB）走网盘。
 - GitHub 单文件上限 100 MB，本仓库任何文件都不应接近这个量级。
 - 若某个 tag 没有对应的说明文件，workflow 会退回到自动生成的说明，不会失败。
-- 想重新发布某个版本，删掉对应 Release 后重推 tag 即可：
+- 想重新发布某个版本，用下面的方式重推 tag（附件不受影响）：
 
 ```powershell
 git push --delete origin v2026.XX.XX

@@ -24,24 +24,38 @@ Windows 10 / 11 **x64** 免安装，程序自带运行环境，**不需要安装
 
 ## 下载
 
-**百度网盘**（播放器、可选 OCR、40 个章节包都在这一个分享里，按需下载）：
+**程序从 GitHub 直接下，只有章节包需要去网盘。**
+
+### ① 程序（播放器 + 可选 OCR）
+
+在 **[Releases 页面](https://github.com/abc85713344/pgr-voice-pack/releases/latest)** 下载，或直接点下面的链接：
+
+| 文件 | 大小 | 说明 |
+|---|---:|---|
+| [`01-player-windows-x64.zip`](https://github.com/abc85713344/pgr-voice-pack/releases/download/v2026.09.24/01-player-windows-x64.zip) | 70.3 MiB | **必需**。主程序（播放器） |
+| [`02-ocr-optional.zip`](https://github.com/abc85713344/pgr-voice-pack/releases/download/v2026.09.24/02-ocr-optional.zip) | 139.9 MiB | 可选。想要 F9 截图定位才需要 |
+
+> **附件名是英文**（GitHub 不允许 Release 附件使用中文文件名），但**压缩包解压出来仍是中文的「战双剧情配音播放器」文件夹**。内容与网盘里的 `01-播放器-Windows-x64.zip` / `02-OCR组件-可选.zip` 完全相同，SHA256 一致。
+
+### ② 章节包（第 3—42 章，23.98 GiB）—— 只有这部分要网盘
+
+40 个 ZIP 合计近 24 GiB，远超 GitHub 的承载能力，放在百度网盘：
 
 https://pan.baidu.com/s/1ZNVqO_yscjlcUcrvrxyMwg?pwd=8paw
 
 **提取码**：`8paw`
 
-> 章节包单个最大 1.8 GiB，建议在网盘客户端里**按需勾选**下载，不必整个文件夹拖下来。
-
 | 文件 | 大小 | 说明 |
 |---|---:|---|
-| `01-播放器-Windows-x64.zip` | 70.3 MiB | **必需**。主程序 |
-| `02-OCR组件-可选.zip` | 139.9 MiB | 可选。想要 F9 截图定位才需要 |
 | `章节配音包/第03章_终末展览.zip` … `第42章_歧海循光.zip` | 49.5 — 1863 MiB | 按需下载，**至少选一章**，40 章不必一次下完 |
+
+> 章节包单个最大 1.8 GiB，建议在网盘客户端里**按需勾选**下载，不必整个文件夹拖下来。
+> 网盘里也放了播放器和 OCR —— **如果 GitHub 下载慢，可以从网盘拿同样的文件**。
 
 ## 三步就能开始
 
-1. 解压 `01-播放器-Windows-x64.zip`。
-2. 下载你要玩的章节 ZIP，**解压到同一个位置**，合并同名的「战双剧情配音播放器」文件夹。用 OCR 就再解压 `02-OCR组件-可选.zip`，同样合并进去。
+1. 解压播放器包（GitHub 上叫 `01-player-windows-x64.zip`，网盘里叫 `01-播放器-Windows-x64.zip`，是同一个文件）。
+2. 下载你要玩的章节 ZIP，**解压到同一个位置**，合并同名的「战双剧情配音播放器」文件夹。要用 F9 截图定位，就再解压 OCR 包，同样合并进去。
 3. 双击里面的 `PgrVoice.exe`。
 
 正确结构如下，**注意不要多套一层同名文件夹**：
@@ -150,6 +164,8 @@ https://pan.baidu.com/s/1ZNVqO_yscjlcUcrvrxyMwg?pwd=8paw
 ## 核对下载是否完整
 
 全部 42 个 ZIP 都做过 CRC 读取校验并记录了 SHA256。完整清单在 [`文件校验.json`](文件校验.json)，逐文件记录在 [`校验记录/`](校验记录)。
+
+> 清单里的键用的是**中文原名**（如 `01-播放器-Windows-x64.zip`）；GitHub 附件叫 `01-player-windows-x64.zip`，**两者 SHA256 相同**，可以直接对照。
 
 在 PowerShell 里算一个文件的哈希：
 
