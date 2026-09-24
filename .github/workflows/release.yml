@@ -1,6 +1,8 @@
 name: 发布 Release
 
-# 推送形如 v2026.09.24 的 tag 时，自动用 release-notes/<tag>.md 创建 Release。
+# 推送形如 v2026.09.24 的 tag 时：
+#   - Release 不存在 -> 用 release-notes/<tag>.md 创建
+#   - Release 已存在 -> 只更新说明文字，保留已上传的附件
 # 使用 GitHub 自动注入的 GITHUB_TOKEN，无需配置任何 Personal Access Token。
 
 on:
@@ -18,21 +20,26 @@ jobs:
       - name: 检出仓库
         uses: actions/checkout@v4
 
-      - name: 创建 Release
+      - name: 创建或更新 Release
         env:
           GH_TOKEN: ${{ github.token }}
           TAG: ${{ github.ref_name }}
         run: |
           set -e
           NOTES="release-notes/${TAG}.md"
-          if [ -f "$NOTES" ]; then
-            echo "使用说明文件: $NOTES"
-            gh release create "$TAG" \
-              --title "$TAG" \
-              --notes-file "$NOTES"
+
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo "Release $TAG 已存在 -> 只更新说明，附件保持不动"
+            if [ -f "$NOTES" ]; then
+              gh release edit "$TAG" --notes-file "$NOTES"
+            else
+              gh release edit "$TAG" --generate-notes
+            fi
           else
-            echo "未找到 $NOTES，改用自动生成的说明"
-            gh release create "$TAG" \
-              --title "$TAG" \
-              --generate-notes
+            echo "创建 Release $TAG"
+            if [ -f "$NOTES" ]; then
+              gh release create "$TAG" --title "$TAG" --notes-file "$NOTES"
+            else
+              gh release create "$TAG" --title "$TAG" --generate-notes
+            fi
           fi
