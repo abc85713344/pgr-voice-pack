@@ -33,7 +33,7 @@ Windows 10 / 11 **x64** 免安装，程序自带运行环境，**不需要安装
 
 | 文件 | 大小 | 说明 |
 |---|---:|---|
-| [`01-player-windows-x64.zip`](https://github.com/abc85713344/pgr-voice-pack/releases/download/v2026.09.27/01-player-windows-x64.zip) | 69.92 MiB | **必需**。主程序（播放器） |
+| [`01-player-windows-x64.zip`](https://github.com/abc85713344/pgr-voice-pack/releases/latest/download/01-player-windows-x64.zip) | 69.92 MiB | **必需**。主程序（播放器）。此链接始终指向最新版 |
 | [`02-ocr-optional.zip`](https://github.com/abc85713344/pgr-voice-pack/releases/download/v2026.09.24/02-ocr-optional.zip) | 139.9 MiB | 可选。想要 F9 截图定位才需要，内容与上一版相同 |
 
 > **附件名是英文**（GitHub 不允许 Release 附件使用中文文件名），但**压缩包解压出来仍是中文的「战双剧情配音播放器」文件夹**。内容与网盘里的 `01-播放器-Windows-x64.zip` / `02-OCR组件-可选.zip` 完全相同，SHA256 一致。
