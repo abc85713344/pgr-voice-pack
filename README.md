@@ -4,7 +4,7 @@
 
 Windows 10 / 11 **x64** 免安装，程序自带运行环境，**不需要安装 Python 或 .NET**。
 
-**版本 2026.09.24**（普通权限键盘跟随修复）｜[版本历史与发布说明](https://github.com/abc85713344/pgr-voice-pack/releases)
+**版本 2026.09.27**（按键跳句、输入延迟修复 + 鼠标「下一句」点击热区）｜[更新日志](更新日志.md) ｜[版本历史与发布说明](https://github.com/abc85713344/pgr-voice-pack/releases)
 
 **社区发布**：[NGA 发布帖](https://ngabbs.com/read.php?tid=47614112) ｜ [B站演示视频](https://www.bilibili.com/video/BV1FPhZ6yEZB/)
 
@@ -16,9 +16,10 @@ Windows 10 / 11 **x64** 免安装，程序自带运行环境，**不需要安装
 |---|---|
 | 搞清楚怎么装、怎么用 | [配置要求与使用指南](配置要求与使用指南.md) |
 | 快捷键速查 | [使用说明](使用说明.md) |
+| 这个版本改了什么 | [更新日志](更新日志.md) |
 | 每章包了什么、验证到什么程度 | [发布检查报告](发布检查报告.md) |
 | 核对自己下载的文件没坏 | [文件校验.json](文件校验.json) |
-| 最新一次的权限修复细节 | [普通权限更新验证](普通权限更新验证.md) |
+| 最近一次程序更新的细节 | [普通权限更新验证](普通权限更新验证.md) |
 
 ---
 
@@ -32,8 +33,8 @@ Windows 10 / 11 **x64** 免安装，程序自带运行环境，**不需要安装
 
 | 文件 | 大小 | 说明 |
 |---|---:|---|
-| [`01-player-windows-x64.zip`](https://github.com/abc85713344/pgr-voice-pack/releases/download/v2026.09.24/01-player-windows-x64.zip) | 70.3 MiB | **必需**。主程序（播放器） |
-| [`02-ocr-optional.zip`](https://github.com/abc85713344/pgr-voice-pack/releases/download/v2026.09.24/02-ocr-optional.zip) | 139.9 MiB | 可选。想要 F9 截图定位才需要 |
+| [`01-player-windows-x64.zip`](https://github.com/abc85713344/pgr-voice-pack/releases/download/v2026.09.27/01-player-windows-x64.zip) | 69.92 MiB | **必需**。主程序（播放器） |
+| [`02-ocr-optional.zip`](https://github.com/abc85713344/pgr-voice-pack/releases/download/v2026.09.24/02-ocr-optional.zip) | 139.9 MiB | 可选。想要 F9 截图定位才需要，内容与上一版相同 |
 
 > **附件名是英文**（GitHub 不允许 Release 附件使用中文文件名），但**压缩包解压出来仍是中文的「战双剧情配音播放器」文件夹**。内容与网盘里的 `01-播放器-Windows-x64.zip` / `02-OCR组件-可选.zip` 完全相同，SHA256 一致。
 
@@ -184,6 +185,8 @@ Get-FileHash .\01-播放器-Windows-x64.zip -Algorithm SHA256
 
 **关键是两边权限保持一致** —— 一边管理员、一边普通时，按键最容易失效。程序设置页会显示播放器权限，绑定游戏后也会提示游戏是否为管理员权限，可用来对照。
 
+**按一次「下一句」前进了两句，或者按空格时播放器动了、游戏没动？** 这是 **2026.09.24 版**的问题，**2026.09.27 版已修复**，更新到最新版即可。想换一种更稳的跟随方式，可以在设置页打开「显示「下一句」点击热区」：把它拖到游戏里“点击继续”的位置，之后点它就能让游戏和配音一起推进，**点选项、技能等别处不会跟随**。
+
 **双击后没看到播放器？** 确认已完整解压，查看任务栏或屏幕边缘的小悬浮球。仍无法启动时，看 `%LOCALAPPDATA%\PgrStoryVoice\player.log`。
 
 **按 F9 没反应？** 确认游戏窗口已绑定、游戏没有最小化、当前小章节选对了，并检查 `ocr/` 下是否有 `PgrOcr.exe`、`models`、`_internal`。手动播放和 F1 分支**不依赖 OCR**。
@@ -207,15 +210,16 @@ Get-FileHash .\01-播放器-Windows-x64.zip -Algorithm SHA256
 
 ```text
 README.md                  ← 你正在看的这一页
+更新日志.md                 ← 各版本改了什么（面向玩家）
 使用说明.md                 ← 快捷键与操作速查
 配置要求与使用指南.md/.docx  ← 图文完整指南
 发布检查报告.md             ← 每章快照与验证范围
-普通权限更新验证.md          ← 最新一次程序更新说明
+普通权限更新验证.md          ← 2026.09.24 程序更新说明
 文件校验.json               ← 42 个 ZIP 的 SHA256 主清单
 章节导出状态.json
 界面预览/                   ← 4 张界面截图
 校验记录/                   ← 42 个逐文件校验 JSON
-验证记录/                   ← 19 份测试记录
+验证记录/                   ← 测试记录
 release-notes/              ← 各版本 Release 说明与发版流程
 .github/workflows/          ← 推 tag 时自动发布 Release
 ```
