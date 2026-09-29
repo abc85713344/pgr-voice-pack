@@ -38,7 +38,20 @@ Windows 10 / 11 **x64** 免安装，程序自带运行环境，**不需要安装
 
 > **附件名是英文**（GitHub 不允许 Release 附件使用中文文件名），但**压缩包解压出来仍是中文的「战双剧情配音播放器」文件夹**。内容与网盘里的 `01-播放器-Windows-x64.zip` / `02-OCR组件-可选.zip` 完全相同，SHA256 一致。
 
-### ② 章节包（第 3—42 章，23.98 GiB）—— 只有这部分要网盘
+### ② Android 版（可选）
+
+手机上的独立播放器，Android 10 及以上、**仅 arm64**。除了游戏内跟随，还能脱离游戏独立听书。
+
+| 文件 | 大小 | 说明 |
+|---|---:|---|
+| [`android-player-arm64.apk`](https://github.com/abc85713344/pgr-voice-pack/releases/latest/download/android-player-arm64.apk) | 68.7 MiB | Android 安装包，直接安装即可 |
+
+源码开放：**[pgr-voice-android](https://github.com/abc85713344/pgr-voice-android)**（.NET 10 for Android / C#）。
+
+> Android 版用系统的文件选择器**自行导入章节 ZIP**，章节包与 Windows 版共用同一批文件（见下）。
+> 不联网、无账号、不需要 root；普通播放和 OCR 定位都不依赖无障碍权限。
+
+### ③ 章节包（第 3—42 章，23.98 GiB）—— 只有这部分要网盘
 
 40 个 ZIP 合计近 24 GiB，远超 GitHub 的承载能力，放在百度网盘：
 
