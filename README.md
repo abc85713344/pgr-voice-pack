@@ -2,11 +2,11 @@
 
 非官方的**剧情配音辅助工具**。跟着游戏剧情逐句播放配音，手动定位游戏里的分支选项。
 
-**游戏文字跟随**：直接从游戏进程读取当前对白，自动定位并播放对应录音 —— 不需要截图，也不需要 OCR。
+**电脑版新增「游戏文字跟随」**：直接从游戏进程读取当前对白，自动定位并播放对应录音 —— 不需要截图，也不需要 OCR。
 
 Windows 10 / 11 **x64** 免安装，程序自带运行环境，**不需要安装 Python 或 .NET**。
 
-**版本 2026.10.02**（新增游戏文字跟随）｜[更新日志](更新日志.md) ｜[版本历史与发布说明](https://github.com/abc85713344/pgr-voice-pack/releases)
+**版本 2026.10.02**（电脑版新增游戏文字跟随）｜[更新日志](更新日志.md) ｜[版本历史与发布说明](https://github.com/abc85713344/pgr-voice-pack/releases)
 
 **社区发布**：[NGA 发布帖](https://ngabbs.com/read.php?tid=47614112) ｜ [B站演示视频](https://www.bilibili.com/video/BV1FPhZ6yEZB/)
 
@@ -36,23 +36,31 @@ Windows 10 / 11 **x64** 免安装，程序自带运行环境，**不需要安装
 
 | 文件 | 大小 | 说明 |
 |---|---:|---|
-| [`01-player-windows-x64.zip`](https://github.com/abc85713344/pgr-voice-pack/releases/latest/download/01-player-windows-x64.zip) | 69.92 MiB | **必需**。主程序（播放器）。此链接始终指向最新版 |
+| [`01-player-windows-x64.zip`](https://github.com/abc85713344/pgr-voice-pack/releases/latest/download/01-player-windows-x64.zip) | 73.2 MiB | **必需**。主程序（电脑版）。此链接始终指向最新版 |
 | [`02-ocr-optional.zip`](https://github.com/abc85713344/pgr-voice-pack/releases/latest/download/02-ocr-optional.zip) | 139.9 MiB | 可选。想要 F9 截图定位才需要 |
 
 > **附件名是英文**（GitHub 不允许 Release 附件使用中文文件名），但**压缩包解压出来仍是中文的「战双剧情配音播放器」文件夹**。内容与网盘里的 `01-播放器-Windows-x64.zip` / `02-OCR组件-可选.zip` 完全相同，SHA256 一致。
 
 ### ② Android 版（可选）
 
-手机上的独立播放器，Android 10 及以上、**仅 arm64**。除了游戏内跟随，还能脱离游戏独立听书。
+手机上的独立播放器，Android 10 及以上、**仅 arm64**。
 
 | 文件 | 大小 | 说明 |
 |---|---:|---|
-| [`android-player-arm64.apk`](https://github.com/abc85713344/pgr-voice-pack/releases/latest/download/android-player-arm64.apk) | 68.7 MiB | Android 安装包，直接安装即可 |
+| [`android-player-arm64.apk`](https://github.com/abc85713344/pgr-voice-pack/releases/latest/download/android-player-arm64.apk) | 69.1 MiB | Android 安装包（v0.3.14），直接安装即可 |
 
 源码开放：**[pgr-voice-android](https://github.com/abc85713344/pgr-voice-android)**（.NET 10 for Android / C#）。
 
+**安卓版能做什么、不能做什么：**
+
+| 功能 | 安卓版 |
+|---|---|
+| 游戏内跟随 | 靠**屏幕捕获 + OCR 识别字幕**驱动，需要授予屏幕捕获权限 |
+| 独立听书 | ✅ 支持，**不需要**屏幕捕获或无障碍权限 |
+| **游戏文字跟随** | ❌ **没有**，这是电脑版独有的 |
+
 > Android 版用系统的文件选择器**自行导入章节 ZIP**，章节包与 Windows 版共用同一批文件（见下）。
-> 不联网、无账号、不需要 root；普通播放和 OCR 定位都不依赖无障碍权限。
+> 不联网、无账号、不需要 root。
 
 ### ③ 章节包（第 3—42 章，23.98 GiB）—— 只有这部分要网盘
 
