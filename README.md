@@ -6,7 +6,7 @@
 
 Windows 10 / 11 **x64** 免安装，程序自带运行环境，**不需要安装 Python 或 .NET**。
 
-**版本 2026.10.02**（电脑版新增游戏文字跟随）｜[更新日志](更新日志.md) ｜[版本历史与发布说明](https://github.com/abc85713344/pgr-voice-pack/releases)
+**版本 2026.10.09**（电脑版设置检查修复 ｜ 安卓点按分支衔接）｜[更新日志](更新日志.md) ｜[版本历史与发布说明](https://github.com/abc85713344/pgr-voice-pack/releases)
 
 **社区发布**：[NGA 发布帖](https://ngabbs.com/read.php?tid=47614112) ｜ [B站演示视频](https://www.bilibili.com/video/BV1FPhZ6yEZB/)
 
