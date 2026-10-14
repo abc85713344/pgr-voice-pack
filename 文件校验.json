@@ -1,9 +1,9 @@
 {
   "01-播放器-Windows-x64.zip": {
-    "version": "2026.10.9.9",
-    "snapshotAt": "2026-10-10 00:14:37",
-    "bytes": 119958324,
-    "sha256": "766d56baabd7f2d1b828623a8f53878ee982966bdba3236cc2059b5061ab80d4",
+    "version": "2026.10.14-047.12",
+    "snapshotAt": "2026-10-14 23:39:24",
+    "bytes": 165282537,
+    "sha256": "e32ac2b8689e8a6f04cb518002cd7c619d07a56220ce9c6d5b525ce25644a499",
     "crcVerified": true
   },
   "02-OCR组件-可选.zip": {

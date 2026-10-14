@@ -6,12 +6,12 @@
 
 Windows 10 / 11 **x64** 免安装，程序自带运行环境，**不需要安装 Python 或 .NET**。
 
-**版本 2026.10.09**（电脑版设置检查修复 ｜ 安卓点按分支衔接）｜[更新日志](更新日志.md) ｜[版本历史与发布说明](https://github.com/abc85713344/pgr-voice-pack/releases)
+**版本 2026.10.14**（电脑版 047.12 ｜ 安卓 0.4.24）｜[更新日志](更新日志.md) ｜[版本历史与发布说明](https://github.com/abc85713344/pgr-voice-pack/releases)
 
 **社区发布**：[NGA 发布帖](https://ngabbs.com/read.php?tid=47614112) ｜ [B站演示视频](https://www.bilibili.com/video/BV1FPhZ6yEZB/)
 
 > **这个仓库只放说明文档、校验清单和界面预览。**
-> **播放器和可选 OCR**（合计约 210 MiB）在下方 [Releases](https://github.com/abc85713344/pgr-voice-pack/releases/latest) 里直接下载；
+> **播放器和可选 OCR**（合计约 298 MiB）在下方 [Releases](https://github.com/abc85713344/pgr-voice-pack/releases/latest) 里直接下载；
 > **59 个章节包**（35.54 GiB）体积远超 GitHub 的限制，在[网盘](#下载)按需下载。
 
 | 想做什么 | 看哪里 |
@@ -37,7 +37,7 @@ Windows 10 / 11 **x64** 免安装，程序自带运行环境，**不需要安装
 
 | 文件 | 大小 | 说明 |
 |---|---:|---|
-| [`01-player-windows-x64.zip`](https://github.com/abc85713344/pgr-voice-pack/releases/latest/download/01-player-windows-x64.zip) | 73.2 MiB | **必需**。主程序（电脑版）。此链接始终指向最新版 |
+| [`01-player-windows-x64.zip`](https://github.com/abc85713344/pgr-voice-pack/releases/latest/download/01-player-windows-x64.zip) | 157.6 MiB | **必需**。主程序（电脑版 2026.10.14-047.12）。此链接始终指向最新版 |
 | [`02-ocr-optional.zip`](https://github.com/abc85713344/pgr-voice-pack/releases/latest/download/02-ocr-optional.zip) | 139.9 MiB | 可选。想要 F9 截图定位才需要 |
 
 > **附件名是英文**（GitHub 不允许 Release 附件使用中文文件名），但**压缩包解压出来仍是中文的「战双剧情配音播放器」文件夹**。内容与网盘里的 `01-播放器-Windows-x64.zip` / `02-OCR组件-可选.zip` 完全相同，SHA256 一致。
@@ -48,7 +48,7 @@ Windows 10 / 11 **x64** 免安装，程序自带运行环境，**不需要安装
 
 | 文件 | 大小 | 说明 |
 |---|---:|---|
-| [`android-player-arm64.apk`](https://github.com/abc85713344/pgr-voice-pack/releases/latest/download/android-player-arm64.apk) | 69.1 MiB | Android 安装包（v0.3.14），直接安装即可 |
+| [`android-player-arm64.apk`](https://github.com/abc85713344/pgr-voice-pack/releases/latest/download/android-player-arm64.apk) | 272.1 MiB | Android 安装包（v0.4.24），直接安装即可 |
 
 源码开放：**[pgr-voice-android](https://github.com/abc85713344/pgr-voice-android)**（.NET 10 for Android / C#）。
 

@@ -1,7 +1,7 @@
 {
-  "version": "0.3.34",
-  "snapshotAt": "2026-10-10 00:14:50",
-  "bytes": 117019806,
-  "sha256": "d895d9227d94507463e54d038ad8370bc8711decb3e857cc48004d2734aaa7f0",
+  "version": "0.4.24",
+  "snapshotAt": "2026-10-14 23:39:24",
+  "bytes": 285290215,
+  "sha256": "d5116828723ee753d58062b8e0dec26449fe9d210a17dcfd4d50aa401366fc3e",
   "crcVerified": true
 }
