@@ -49,4 +49,4 @@ jobs:
           fi
 
           echo "--- 当前状态 ---"
-          gh release view "$TAG" --json isDraft,isLatest,tagName,url
+          gh release view "$TAG" --json isDraft,tagName,url
